@@ -1,5 +1,6 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+	layout: "vertical"
 }
 
 "Label": {
@@ -8,8 +9,28 @@
 	color: "#000"
 }
 
-"#label": {
+"#lobster": {
 	font: {
-		fontSize: 12
+		fontSize: 20,
+		fontFamily: 'Lobster_1_4'
 	}
+}
+
+"#roboto": {
+	font: {
+		fontSize: 20,
+		fontFamily: 'Roboto-Light'
+	}
+}
+
+"#lightgreen": {
+	color: "#49CCCA"
+}
+
+"#darkblue": {
+	Color: "#182B39"
+}
+
+"#mediumgreen": {
+	color: "#59D3CA"
 }
