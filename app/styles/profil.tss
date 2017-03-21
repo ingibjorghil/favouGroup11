@@ -1,0 +1,50 @@
+"Window": {
+	backgroundColor: "#182B39"
+}
+".container" : {
+  paddingLeft: "30dp",
+  paddingRight: "30dp",
+  layout: "vertical"
+}
+".horizontal": {
+	layout: "horizontal"
+}
+".header": {
+	color: "#49CCCA",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Lobster_1_4',
+	}
+}
+".header-large": {
+	color: "#49CCCA",
+	font: {
+		fontSize: 24,
+		fontFamily: 'Lobster_1_4'
+	}
+}
+".profil-billede": {
+	width: "146dp"
+}
+".profil-header": {
+	color: "#ffffff",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lobster_1_4'
+	}
+}
+".profil-info": {
+	height: "100dp"
+}
+".col-2": {
+	width: "50%",
+	layout: "vertical"
+}
+".col-3": {
+	width: "33.333%",
+	layout: "vertical"
+}
+".checkbox": {
+	style: Titanium.UI.Android.SWITCH_STYLE_CHECKBOX,
+	color: "#ffffff"
+}
