@@ -16,6 +16,21 @@
 			<View class="horizontal">
 				<View class="col-3">
 					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+				</View>
+				<View class="col-3">
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+				</View>
+				<View class="col-3">
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
 				</View>
 			</View>
 		</View>
