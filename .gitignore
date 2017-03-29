@@ -9,7 +9,7 @@ tmp
 .settings
 Thumbs.db
 LICENSE
-LICENSE
+LICENSE.txt
 CHANGELOG.txt
 plugins
 DefaultIcon.png
@@ -20,4 +20,5 @@ README
 tiapp.xml
 Resources
 iTunesConnect.png
+.gitattributes
 
