@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<ImageView class="logo" image="images/favou_logo.png"></ImageView>
+		<View class="btn"></View>
+		<View class="frontText">
+			<Label class="frontTextLbl">Velkommen til Favou.\n Ved at logge ind med Facebook, giver du samtidig din samtykke til \n at vi kan hente dine \nprofiloplysninger. Vi poster aldrig noget på dine vegne.
+			</Label>
+		</View>
+	</Window>
+</Alloy>

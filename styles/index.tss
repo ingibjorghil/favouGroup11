@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor:"#182B39",
+	layout: "vertical",
+	height: "auto",
+	width: "auto"
+}
+
+".logo": {
+	width: "80%",
+	top: "20%"
+}
+
+".btn": {
+	width: "65%",
+	height: "7%",
+	backgroundColor: "#4a699f",
+	borderRadius: 10,
+	top: "15%"
+}
+
+".frontText": {
+	width: "65%",
+	height: Ti.UI.SIZE,
+	top: "8%"
+}
+
+".frontTextLbl": {
+	color: "#59D3CA",
+	textAlign: "center",
+	font: {
+		fontSize: "16dp"
+	}
+}
