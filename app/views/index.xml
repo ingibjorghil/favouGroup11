@@ -6,6 +6,7 @@
 		<Label id="lightgreen">lightgreen</Label>
 		<Label id="darkblue">Darkblue</Label>
 		<Label id="mediumgreen">Mediumgreen</Label>
-		<Button onClick="changeWindow">Profil</Button>
+		<Button onClick="changeWindowProfil">Profil</Button>
+		<Button onClick="changeWindowopgave">Opgavedetaljer</Button>
 	</Window>
 </Alloy>

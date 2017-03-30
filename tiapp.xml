@@ -5,7 +5,7 @@
     <version>1.0</version>
     <publisher>ingibjorg</publisher>
     <url/>
-    <description/>
+    <description>undefined</description>
     <copyright>2017 by ingibjorg</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -51,8 +51,6 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
-        <module platform="android">hyperloop</module>
-        <module platform="iphone">hyperloop</module>
         <module platform="commonjs">ti.cloud</module>
     </modules>
     <deployment-targets>
