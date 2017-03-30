@@ -1,4 +1,39 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window>
+		<View class="container">
+			<Label class="header">Profil</Label>
+			<View class="horizontal profil-info">
+				<View class="col-2">
+					<ImageView class="profil-billede" image="images/karlholger_profil.png"></ImageView>
+				</View>
+				<View class="col-2">
+					<Label class="profil-header">Karl Holger</Label>
+					<Label class="profil-header">28 år</Label>
+					<Label class="profil-header">Odense C</Label>
+				</View>
+			</View>
+			<Label class="header-large">Interesser</Label>
+			<View class="horizontal">
+				<View class="col-3">
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+				</View>
+				<View class="col-3">
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+				</View>
+				<View class="col-3">
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+					<Switch class="checkbox" platform="android" title="Notifications"/>
+				</View>
+			</View>
+		</View>
+		
+	</Window>
 </Alloy>

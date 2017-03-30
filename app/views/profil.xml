@@ -1,39 +1,47 @@
 <Alloy>
 	<Window>
-		<View class="container">
-			<Label class="header">Profil</Label>
-			<View class="horizontal profil-info">
-				<View class="col-2">
-					<ImageView class="profil-billede" image="images/karlholger_profil.png"></ImageView>
+		<ScrollView class="container">
+			<View class="viewHeader">
+				<ImageView class="backArrow" image="images/arrow_green.png"></ImageView>
+				<Label class="header">Opgavedetaljer</Label>
+				<View class="backArrow"></View>
+			</View>
+			<View class="opgaveInfo">
+				<Label class="opgaveTitle">Hjælp til flytning søges</Label>
+				<Label class="fontWhite">12.07.17</Label>
+				<ImageView class="opgaveImage" image="images/jenslokke_profil.png"></ImageView>
+				<Label class="fontWhite">Jens Løkke</Label>
+				<Button class="gruppechat">Gruppechat</Button>
+			</View>
+			<View class="opgaveInfoLabels">
+				<View class="opgaveLabels">
+					<Label class="fontGreen">Kategori:</Label>
+					<Label class="opgaveLabelHvid">Privat</Label>
 				</View>
-				<View class="col-2">
-					<Label class="profil-header">Karl Holger</Label>
-					<Label class="profil-header">28 år</Label>
-					<Label class="profil-header">Odense C</Label>
+				<View class="opgaveLabels">
+					<Label class="fontGreen">Adresse: </Label>
+					<Label class="opgaveLabelHvid">Bleble gade</Label>
+				</View>
+				<View class="opgaveLabels">
+					<Label class="fontGreen">Antal Personer: </Label>
+					<Label class="opgaveLabelHvid">500</Label>
+				</View>
+				<View class="opgaveLabelsVertical">
+					<Label class="fontGreen">Beskrivelse: </Label>
+					<Label class="opgaveBeskrivelse">Bleble blablabla Lorem Ipsum ble ble.</Label>
 				</View>
 			</View>
-			<Label class="header-large">Interesser</Label>
-			<View class="horizontal">
-				<View class="col-3">
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
+			<View class="deltag-view">
+				<Label class="header-large">Deltagere</Label>
+				<View class="horizontalLayout">
+					<View class="col-3">
+					<ImageView class="deltag-image" image="images/jenslokke_profil.png"></ImageView>
 				</View>
-				<View class="col-3">
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
 				</View>
-				<View class="col-3">
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-					<Switch class="checkbox" platform="android" title="Notifications"/>
-				</View>
+				
 			</View>
-		</View>
+			
+		</ScrollView>
 		
 	</Window>
 </Alloy>
