@@ -1,10 +1,10 @@
 <Alloy>
-	<Window class="container">
-		<Label id="lobster">Headings</Label>
-		<Label id="roboto">Text</Label>
-		<ImageView image="images/favou_logo.png"></ImageView>
-		<Label id="lightgreen">lightgreen</Label>
-		<Label id="darkblue">Darkblue</Label>
-		<Label id="mediumgreen">Mediumgreen</Label>
+	<Window class="container" id="loginWin">
+		<ImageView class="logo" image="images/favou_logo.png"></ImageView>
+		<LoginButton ns="Alloy.Globals.Facebook" />
+		<View class="frontText">
+			<Label class="frontTextLbl">Velkommen til Favou.\n Ved at logge ind med Facebook, giver du samtidig din samtykke til \n at vi kan hente dine \nprofiloplysninger. Vi poster aldrig noget på dine vegne.
+			</Label>
+		</View>
 	</Window>
 </Alloy>

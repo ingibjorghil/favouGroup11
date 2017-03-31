@@ -1,36 +1,29 @@
 ".container": {
-	backgroundColor:"white",
-	layout: "vertical"
+	backgroundColor:"#182B39",
+	layout: "vertical",
+	height: "auto",
+	width: "auto"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
+".logo": {
+	width: "80%",
+	top: "20%"
+}
+
+".frontText": {
+	width: "65%",
 	height: Ti.UI.SIZE,
-	color: "#000"
+	top: "8%"
 }
 
-"#lobster": {
+".frontTextLbl": {
+	color: "#59D3CA",
+	textAlign: "center",
 	font: {
-		fontSize: 20,
-		fontFamily: 'Lobster_1_4'
+		fontSize: "16dp"
 	}
 }
-
-"#roboto": {
-	font: {
-		fontSize: 20,
-		fontFamily: 'Roboto-Light'
-	}
-}
-
-"#lightgreen": {
-	color: "#49CCCA"
-}
-
-"#darkblue": {
-	Color: "#182B39"
-}
-
-"#mediumgreen": {
-	color: "#59D3CA"
+"LoginButton": {
+	width: "65%",
+	top: "15%"
 }
