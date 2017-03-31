@@ -9,8 +9,4 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-Alloy.Globals.Facebook = require('facebook');
-Alloy.Globals.Facebook.permissions = ['public_profile', 'email'];
-Alloy.Globals.Facebook.initialize();
-Alloy.Globals.Facebook.authorize();
 

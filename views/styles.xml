@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Label id="lobster">Headings</Label>
+		<Label id="roboto">Text</Label>
+		<ImageView image="images/favou_logo.png"></ImageView>
+		<Label id="lightgreen">lightgreen</Label>
+		<Label id="darkblue">Darkblue</Label>
+		<Label id="mediumgreen">Mediumgreen</Label>
+	</Window>
+</Alloy>

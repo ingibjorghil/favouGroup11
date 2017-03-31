@@ -10,6 +10,14 @@
 	top: "20%"
 }
 
+".btn": {
+	width: "65%",
+	height: "7%",
+	backgroundColor: "#4a699f",
+	borderRadius: 10,
+	top: "15%"
+}
+
 ".frontText": {
 	width: "65%",
 	height: Ti.UI.SIZE,
@@ -22,8 +30,4 @@
 	font: {
 		fontSize: "16dp"
 	}
-}
-"LoginButton": {
-	width: "65%",
-	top: "15%"
 }
