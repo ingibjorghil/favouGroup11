@@ -1,10 +1,10 @@
 exports.definition = {
 	config: {
-
-		adapter: {
-			URL: "http://webdev.hilmarsdottir.com/wp-json/wp/v2/users",
+		URL: "http://webdev.hilmarsdottir.com/wp-json/wp/v2/users",
+		adapter: {	
 			type: "restapi",
-			collection_name: "wpUser"
+			collection_name: "wpUser",
+			idAttribute: "id"
 		},
 		headers: {
 			Accept: "application/json"

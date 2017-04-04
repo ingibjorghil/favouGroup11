@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container" id="loginWin">
+	<Window id="loginWin" class="container">
 		<ImageView class="logo" image="images/favou_logo.png"></ImageView>
 		<LoginButton ns="Alloy.Globals.Facebook" />
 		<View class="frontText">
