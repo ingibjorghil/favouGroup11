@@ -10,7 +10,7 @@
 				<View class="col-2">
 					<Label class="profil-header">Navn</Label>
 					<Label class="profil-header">28 år</Label>
-					<Label class="profil-header">{user.name}</Label>
+					<Label class="profil-header">{name}</Label>
 				</View>
 			</View>
 			<Label class="header-large">Interesser</Label>

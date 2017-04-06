@@ -1,6 +1,10 @@
 <Alloy>
 	<Window id="loginWin" >
-		<View class="container" dataCollection="wpuser" dataTransform="transform">
+		<View class="container">
+			<!-- <TableView id="table" dataCollection="wpuser" dataTransform="transform">
+				<TableViewRow title="{name}" modelId="{id}" wpId="{wpId}" author="{first_name}">
+				</TableViewRow>
+			</TableView> -->
 			<ImageView class="logo" image="images/favou_logo.png"></ImageView>
 			<LoginButton ns="Alloy.Globals.Facebook" />
 			<View class="frontText">

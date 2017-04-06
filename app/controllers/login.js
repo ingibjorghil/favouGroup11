@@ -1,4 +1,4 @@
-function transform(model) {
+/**function transform(model) {
 	var userInfo = model.toJSON();
 	var output = {
 		"email" : userInfo.email,
@@ -10,7 +10,7 @@ function transform(model) {
 	};
 	console.log(output);
 	return output;
-}
+}*/
 
 var fb = require('facebook');
 
@@ -49,8 +49,9 @@ fb.addEventListener('login', function(e) {
 			xhr.onerror = function(e){
 				if(JSON.parse(this.responseText).code === 'existing_user_login') {
 					
-					user = Alloy.Collections.wpuser.where({name: fbId});					
-					Alloy.createController("profil", {data: user}).profilWin.open();
+					//user = Alloy.Collections.wpuser.where({name: fbId});	
+					//Alloy.createController("profil", {data: user}).profilWin.open();				
+					Alloy.createController("profil").profilWin.open();
 					//alert('You shall pass');
 				} else {
 					Ti.API.debug(e.error);
