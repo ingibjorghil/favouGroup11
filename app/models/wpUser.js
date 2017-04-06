@@ -1,13 +1,16 @@
 exports.definition = {
 	config: {
 		URL: "http://webdev.hilmarsdottir.com/wp-json/wp/v2/users",
+		debug: 1,
 		adapter: {	
 			type: "restapi",
-			collection_name: "wpUser",
+			collection_name: "wpuser",
 			idAttribute: "id"
 		},
 		headers: {
-			Accept: "application/json"
+			Authorization: 'Basic ' + Titanium.Utils.base64encode('admin:!ealweb/dev#17'),
+			Accept: "application/json",
+			
 		},
 	},
 	extendModel: function(Model) {
