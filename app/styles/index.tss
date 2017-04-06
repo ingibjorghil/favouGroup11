@@ -24,13 +24,56 @@
 }
 
 "#lightgreen": {
-	color: "#49CCCA"
+	color: "#59D3CA"
 }
 
 "#darkblue": {
-	Color: "#182B39"
+	Color: "#192935"
 }
 
 "#mediumgreen": {
 	color: "#59D3CA"
+}
+
+//STYLING TIL TABMENUEN I BUNDEN --
+'.tabMenu' : {
+	layout: "horizontal",
+	bottom : "0",
+	height: "12%",
+	width : "100%"
+}
+
+
+
+'.Active': {
+ layout: "vertical",
+ backgroundColor: '#192935',
+ width: "25%",
+ borderColor: "grey",
+ borderWidth: "0.7 dp"
+}
+'.notActive': {
+ layout: "vertical",
+ backgroundColor: 'white',
+ width: "25%",
+ borderColor: "grey",
+ borderWidth: "0.7 dp"
+}
+'.ActiveLabel' : {
+	top :"3 dp",
+	color : "white",
+	font : {
+		fontSize : "10 dp"
+	}
+}
+'.NotActiveLabel' : {
+	top :"3 dp",
+	color : "#192935",
+	font : {
+		fontSize : "10 dp"
+	}
+}
+'.btnIcon': {
+	top: "7 dp",
+	height : "50%"
 }

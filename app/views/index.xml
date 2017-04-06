@@ -1,10 +1,12 @@
 <Alloy>
-	<Window class="container">
+	<Window class="container" id="loginwindow">
 		<Label id="lobster">Headings</Label>
 		<Label id="roboto">Text</Label>
-		<ImageView image="images/favou_logo.png"></ImageView>
 		<Label id="lightgreen">lightgreen</Label>
 		<Label id="darkblue">Darkblue</Label>
 		<Label id="mediumgreen">Mediumgreen</Label>
+		<Button onClick="toOpdag">OPDAG SIDEN</Button>
+		<Button onClick="APIcall">datadatadatadatadata</Button>
+		<LoginButton ns="Alloy.Globals.Facebook"/>
 	</Window>
 </Alloy>

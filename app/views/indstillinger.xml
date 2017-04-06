@@ -1,0 +1,26 @@
+<Alloy>
+	<Window>
+		<View width="100%" height="20%" backgroundColor="white"><Label color="black">indstillinger</Label></View>
+		<View class="tabMenu">	
+			<View class="notActive" onClick="toOpdag">
+				<ImageView class="btnIcon" image="/images/1_globe.png"/>
+				<Label class="NotActiveLabel">Opdag</Label>
+			</View>
+				
+			<View class="notActive" onClick="toTilmeldte">
+				<ImageView class="btnIcon" image="/images/2_check.png"/>
+				<Label class="NotActiveLabel">Tilmeldte Opgaver</Label>
+			</View>
+				
+			<View class="notActive" onClick="toProfil">
+				<ImageView class="btnIcon" image="/images/3_user.png"/>
+				<Label class="NotActiveLabel">Profil</Label>
+			</View>
+				
+			<View class="Active">
+				<ImageView class="btnIcon" image="/images/4_indstillinger_white.png"/>
+				<Label class="ActiveLabel">Indstillinger</Label>
+			</View>		
+		</View>
+	</Window>
+</Alloy>

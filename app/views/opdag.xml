@@ -1,0 +1,74 @@
+<Alloy>
+	<Window>
+   <!-- 	
+	<Window onOpen="showCurrentPosition">
+
+		<Menu platform="android">
+
+			<MenuItem id="searchMenu">
+
+				<ActionView>
+
+					<SearchView ns="Ti.UI.Android" hintText="Location" onSubmit="geocodeLocation" />
+
+				</ActionView>
+
+			</MenuItem>
+		</Menu>
+
+		<View class="canvas">
+
+			<SearchBar platform="ios" hintText="Location" onReturn="geocodeLocation" />
+
+
+			<View module="ti.map" id="map" onLongclick="reverseGeocode">
+
+				<Button class="typeBtn" onClick="toIndex">Tilbage</Button>
+
+			</View>
+
+		<TableView id="undermap">
+                    <TableViewRow><Label id="task1"></Label></TableViewRow>
+                    <TableViewRow><Label id="task2"></Label></TableViewRow>
+                    <TableViewRow><Label id="task3"></Label></TableViewRow>
+                    <TableViewRow><Label id="task4"></Label></TableViewRow>
+                    <TableViewRow><Label id="task5"></Label></TableViewRow>
+                    <TableViewRow><Label id="task6"></Label></TableViewRow>
+                    <TableViewRow><Label id="task7"></Label></TableViewRow>
+                    <TableViewRow><Label id="task8"></Label></TableViewRow>
+                    <TableViewRow><Label id="task9"></Label></TableViewRow>
+                    <TableViewRow><Label id="task10"></Label></TableViewRow>
+                    <TableViewRow><Label id="task11"></Label></TableViewRow>
+                    <TableViewRow><Label id="task12"></Label></TableViewRow>
+                    <TableViewRow><Label id="task13"></Label></TableViewRow>
+                    
+            </TableView>
+		</View>
+	-->
+		<View width="100%" height="20%" backgroundColor="white"><Label  color="black">opdag</Label></View>
+	
+		<View class="tabMenu">	
+				<View class="Active">
+					<ImageView class="btnIcon" image="/images/1_globe_white.png"/>
+					<Label class="ActiveLabel">Opdag</Label>
+				</View>
+				
+				<View class="notActive" onClick="toTilmeldte">
+					<ImageView class="btnIcon" image="/images/2_check.png"/>
+					<Label class="NotActiveLabel">Tilmeldte Opgaver</Label>
+				</View>
+				
+				<View class="notActive" onClick="toProfil">
+					<ImageView class="btnIcon" image="/images/3_user.png"/>
+					<Label class="NotActiveLabel">Profil</Label>
+				</View>
+				
+				<View class="notActive" onClick="toIndstillinger">
+					<ImageView class="btnIcon" image="/images/4_indstillinger.png"/>
+					<Label class="NotActiveLabel">Indstillinger</Label>
+				</View>		
+		</View>
+
+
+	</Window>
+</Alloy>
