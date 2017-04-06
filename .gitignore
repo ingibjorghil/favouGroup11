@@ -22,3 +22,9 @@ Resources
 iTunesConnect.png
 .gitattributes
 
+
+i18n/alloy_generated
+
+platform/android/alloy_generated
+
+platform/android/res/values/strings.xml
